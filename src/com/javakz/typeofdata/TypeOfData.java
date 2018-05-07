@@ -9,9 +9,6 @@ package com.javakz.typeofdata;
 public class TypeOfData {
     public static void main(String[] args) {
         byte state = '1';
-//        short
-
-        
         int age = 25;
         long earthPopulation = 200000000000000L;
         double salary = 14120.6D;
