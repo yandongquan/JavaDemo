@@ -15,6 +15,6 @@ public class TypeOfData {
         float e = 2.718281828f;
         double d = 88888882.7182818288888888d;
         String name = "张三";
-        System.out.println(d);
+        System.out.println(name);
     }
 }
