@@ -16,6 +16,20 @@ public class TestException {
     public static void main(String[] args) throws MyException {
 //        char a = 'a';
 //        int i = 10/0;
-        test();
+        try {
+            int i = 10/0;
+        } catch (Exception e) {
+
+        }
+
+        try {
+            int i = 10/0;
+        } catch (Exception e) {
+
+        } finally {
+            System.out.println("--------------------------");
+        }
+
+//        test();
     }
 }
