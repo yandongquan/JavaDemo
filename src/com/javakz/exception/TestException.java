@@ -30,6 +30,12 @@ public class TestException {
             System.out.println("--------------------------");
         }
 
+        try {
+            int i = 10/2;
+        } finally {
+            System.out.println("-----10/2-----------");
+        }
+
 //        test();
     }
 }
