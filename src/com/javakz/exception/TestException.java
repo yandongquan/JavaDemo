@@ -7,8 +7,15 @@ package com.javakz.exception;
  * @Modified By:
  */
 public class TestException {
-    public static void main(String[] args) {
-        char a = 'a';
+    public static void test() throws MyException {
+        throw new MyException("这是一个业务异常");
+    }
+    public static void test2() throws MyException {
+        throw new MyException("这是一个业务异常");
+    }
+    public static void main(String[] args) throws MyException {
+//        char a = 'a';
 //        int i = 10/0;
+        test();
     }
 }
