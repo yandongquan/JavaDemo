@@ -23,7 +23,7 @@ public class TestWrapperClass {
         System.out.println(d.equals(e));
 
         System.out.println("*******************************");
-        
+
         Integer f = -129;
         Integer g = -129;
         // [-128,127]之间的数，仍然当做基本数据类型来处理
