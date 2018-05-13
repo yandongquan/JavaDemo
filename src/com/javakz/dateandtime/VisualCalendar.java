@@ -16,6 +16,7 @@ import java.util.Scanner;
  */
 public class VisualCalendar {
     public static void main(String[] args) {
+
         System.out.println("请输入日期（按照格式：2030-3-10）：");
         Scanner scanner = new Scanner(System.in);
         String temp = scanner.nextLine();
